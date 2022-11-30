@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #3597ff;
+}
+
+.main-img{
+    max-width: 50%;
+    max-height: 100%;
+}

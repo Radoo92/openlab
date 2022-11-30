@@ -1,0 +1,78 @@
+$(() => {
+	initMenu();
+	initJoinSlider();
+	initModal();
+	toggleHighlight();
+})
+
+function initMenu() {
+	if ( $(window).width() < 992 ) {
+		$('.main-navbar').addClass('fixed-top');
+		document.getElementById('page').style.paddingTop = '57px'
+	}
+	$('.main-navbar [data-bs-toggle="collapse"]').on('click', function() {
+		$(".menu-overlay").toggleClass('show');
+	});
+	
+	$(".menu-overlay").on('click', function() {
+		$(".navbar-toggler").trigger('click');
+		$(".menu-overlay").toggleClass('show');
+	});
+}
+
+function initJoinSlider() {
+	$("document").ready( function() {
+		if ( $(window).width() > 767 ) {
+			$('#join .owl-carousel .owl-item.active').prev().css('margin-right', '-4.2%')
+			const items = $('#join .owl-carousel .owl-item').toArray()
+			items.forEach(item => {	
+				const options = {
+					attributes: true
+				}
+				function callback(mutationList, observer) {
+					mutationList.forEach(function(mutation) {
+						if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+							$('#join .owl-carousel .owl-item').css('margin-right', '0')
+							$('#join .owl-carousel .owl-item.active').prev().css('margin-right', '-4.2%')
+						}
+					})
+				}
+				const observer = new MutationObserver(callback)
+				observer.observe(item, options)
+			});
+		}
+	})
+}
+
+function initModal() {
+	$(document).ready(function() {
+		if (!($("#episodes").length || $("#openGate").length || $("#studentProjects").length || $("#projects").length)) return
+		$('[data-bs-toggle="modal"]').click(function() {
+			const modal = $(this).attr('data-bs-target');
+			$(modal + ' iframe').attr('src', $(this).attr('data-video') + "?autoplay=1");
+			$(modal + ' [data-bs-dismiss="modal"').click(function() {
+				$(modal + ' iframe').attr('src', '');
+			})
+			$(document).click(function(e) {
+				if ($(e.target).hasClass("modal") && $('body').hasClass('modal-open')) {
+					$(modal + ' iframe').attr('src', '');
+				}		
+			})
+			$(document).keyup(function(e) {
+				if (e.key === "Escape") {
+					if ($(e.target).hasClass("modal") && $('body').hasClass('modal-open')) {
+						$(modal + ' iframe').attr('src', '');
+					}	
+				}
+			})
+		})
+	});
+}
+
+function setActiveLabsliderLab(labId) {
+	document.getElementById("lab-slider-hybridlab").classList.remove('active')
+	document.getElementById("lab-slider-gameslab").classList.remove('active')
+	document.getElementById("lab-slider-appslab").classList.remove('active')
+
+	document.getElementById(labId).classList.add('active')
+}
