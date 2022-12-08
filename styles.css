@@ -1,13 +1,11 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'SF Pro Display', sans-serif;
     letter-spacing: 1px;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
-}
 .nav ul {
     margin: 0;
 }
@@ -27,36 +25,69 @@ html, body {
 .nav a:hover {
     color: #3597ff;
 }
-
-
 .main-header {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid;
 }
 
-.mainVisual{
-    background-color: #3597ff;
-}
-
-.container {
+.main-visual {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    background-color: #3597ff;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+.text-container {
     max-width: 1140px;
+    margin-left: 118px;
 }
 
 .main-img {
     max-height: 26.125rem;
-    margin-right: 2.5rem;
+    margin-right: 118px;
+    padding-left: 118px;
 }
 
-.text-white{
+.text-white {
     color: white;
+    text-align: start;
+}
+
+h1 {
+    margin-bottom: 24px;
 }
 
 .fw-light {
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 40px;
 }
 
+.fw-bold {
+    font-weight: 700;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.why-openlab {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: center;
+}
+
+.why-container {
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.text-gray {
+    color: gray
+}
