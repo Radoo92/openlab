@@ -89,5 +89,9 @@ h1 {
 }
 
 .text-gray {
-    color: gray
+    color: #566b8d
+}
+
+h5 {
+    font-size: 20px;
 }
