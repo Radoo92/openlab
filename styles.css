@@ -80,13 +80,15 @@ h1 {
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    justify-content: center;
+    
 }
 
 .why-container {
-    width: 100%;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    margin-left: 118px;
+    margin-right: 118px;
+    max-width: 1200px; margin: 0 auto;
 }
 
 .text-gray {
@@ -100,9 +102,11 @@ h5 {
 .why-items-wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+    max-width: 1000px; margin: 0 auto;
+    padding-top: 3rem;
 }
 
 .why-item{
     text-align: left;
 }
+
