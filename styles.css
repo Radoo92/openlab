@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'SF Pro Display', sans-serif;
     letter-spacing: 1px;
 }
@@ -103,15 +102,29 @@ h5 {
     text-align: left;
 }
 
-.vision-items-wrapper{
-    text-align:right;
+.vision-wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
 }
 
-#vision-openlab .vision-item {
+.vision-text {
+    text-align: left;
+
+}
+
+.vision-items-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.vision-item{
     width: 233px;
     height: 183px;
     border-radius: 4px;
+    text-align: right;
 }
+
 
 #vision-openlab .vision-item:nth-child(1) {
     color: #5b94d7;
@@ -145,4 +158,3 @@ h5 {
 .type {
     font-size: 18px;
 }
-
