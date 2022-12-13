@@ -31,7 +31,7 @@
     border-bottom: 1px solid;
 }
 
-.main-visual {
+#main-visual {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,10 +41,12 @@
     margin-bottom: 48px;
 }
 
-
-.text-container {
-    max-width: 1140px;
+.container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     margin-left: 118px;
+    margin-right: 118px;
+    max-width: 1200px; margin: 0 auto;
 }
 
 .main-img {
@@ -76,20 +78,12 @@ h1 {
     margin-bottom: 3rem;
 }
 
-.why-openlab {
+#why-openlab {
     text-align: center;
     padding-top: 3rem;
-    padding-bottom: 3rem;
-    
+    padding-bottom: 3rem;  
 }
 
-.why-container {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    margin-left: 118px;
-    margin-right: 118px;
-    max-width: 1200px; margin: 0 auto;
-}
 
 .text-gray {
     color: #566b8d
@@ -102,11 +96,53 @@ h5 {
 .why-items-wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 1000px; margin: 0 auto;
     padding-top: 3rem;
 }
 
 .why-item{
     text-align: left;
+}
+
+.vision-items-wrapper{
+    text-align:right;
+}
+
+#vision-openlab .vision-item {
+    width: 233px;
+    height: 183px;
+    border-radius: 4px;
+}
+
+#vision-openlab .vision-item:nth-child(1) {
+    color: #5b94d7;
+    background-color: rgba(221, 236, 251, 0.4);
+}
+
+#vision-openlab .vision-item:nth-child(2) {
+    color: #5cc19a;
+    background-color: rgba(156, 238, 204, 0.4);
+}
+
+#vision-openlab .vision-item:nth-child(3) {
+    color: #dbca68;
+    background-color: rgba(238, 226, 156, 0.4);
+ }
+
+#vision-openlab .vision-item:nth-child(4) {
+    color: #b95e73;
+    background-color: rgba(238, 156, 156, 0.4);
+}
+
+.fw-bold {
+    line-height: 1;
+    font-weight: 700;
+}
+
+.count {
+    font-size: 90px;
+}
+
+.type {
+    font-size: 18px;
 }
 
