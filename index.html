@@ -16,10 +16,10 @@
       <button class="btn">openlab community</button>
     </header>
     <nav class="nav main-nav">
-      <a href="">
-        <img src="assets/openlab-logo.svg" alt="logo" />
-      </a>
       <ul>
+        <a href="">
+          <img src="assets/openlab-logo.svg" alt="logo" />
+        </a>
         <li><a href="https://openlab.sk/">Úvod</a></li>
         <li><a href="https://openlab.sk/openlaby">OpenLab</a></li>
         <li><a href="https://openlab.sk/pre-ucitelov">Pre učiteľov</a></li>
@@ -30,18 +30,22 @@
       </ul>
     </nav>
     <section id="main-visual">
-      <div class="container">
-        <h1 class="text-white fw-light">
-          Inštitút stredoškolského odborného vzdelávania
-          <strong>zameraný na IT & AI</strong>
-        </h1>
-        <p class="text-white">
-          Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy
-          <br class="br" />
-          ako nový štandard formálneho vzdelávania
-        </p>
+      <div class="container-main">
+        <div class="main-wrapper">
+          <div class="main-text">
+            <h1 class="text-white fw-light">
+              Inštitút stredoškolského odborného vzdelávania
+              <strong>zameraný na IT & AI</strong>
+            </h1>
+            <p class="text-white">
+              Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy
+              <br class="br" />
+              ako nový štandard formálneho vzdelávania
+            </p>
+          </div>
+          <img class="main-img" src="/assets/main-home.png" alt="main-image" />
+        </div>
       </div>
-      <img class="main-img" src="/assets/main-home.png" alt="main-image" />
     </section>
 
     <section id="why" class="pd">
@@ -167,54 +171,87 @@
 
     <section id="schools" class="pd">
       <div class="container">
-        <h2 class="fw-light">
-          <strong>Nachádzame sa</strong>
-          na dvoch školách
-        </h2>
-        <h6>Hálova 16, Bratislava</h6>
-        <h5>
-          <span>Stredná Priemyselná Škola Elektrotechnická</span>
-          <span>Upozornenie</span>
-          <div>
-            Na overovaní experimentálneho študijného odboru PDT spolupracuje
-            občianske združenie OpenLab so SPŠE Hálova v triedach začínajúcich
-            prvý ročník štúdia v školských rokoch 2021/2022 a 2022/2023. V
-            triedach prvého ročníka začínajúcich od školského roka
-            <span
-              >2023/2024 sa na overovaní odboru PDT nebudú podieľať členovia
-              občianskeho združenia OpenLab</span
-            >, ale noví partneri školy.
+        <div class="schools-wrapper">
+          <div class="schools-text">
+            <h2 class="fw-light">
+              <strong>Nachádzame sa</strong>
+              na dvoch školách
+            </h2>
           </div>
-          <a href="https://www.spsehalova.sk">www.spsehalova.sk</a>
-        </h5>
+          <div class="schools-items-wrapper">
+            <div class="school-item">
+              <img src="/assets/school1.png" class="school-img" alt="school1" />
+              <h6 class="text-gray">Hálova 16, Bratislava</h6>
+              <h5>
+                <span>Stredná Priemyselná Škola Elektrotechnická</span>
 
-        <h6>Nábrežná 1325, Kysucké Nové Mesto</h6>
-        <h5>
-          <span>Stredná Priemyselná Škola Informačných Technológií</span>
-          <a href="http://www.spsknm.sk">www.spsknm.sk</a>
-        </h5>
+                <!-- <span>Upozornenie</span>
+            <div>
+              Na overovaní experimentálneho študijného odboru PDT spolupracuje
+              občianske združenie OpenLab so SPŠE Hálova v triedach začínajúcich
+              prvý ročník štúdia v školských rokoch 2021/2022 a 2022/2023. V
+              triedach prvého ročníka začínajúcich od školského roka
+              <span
+                >2023/2024 sa na overovaní odboru PDT nebudú podieľať členovia
+                občianskeho združenia OpenLab</span
+              >, ale noví partneri školy. 
+            </div> -->
+
+                <a href="https://www.spsehalova.sk" class="text-blue"
+                  >www.spsehalova.sk</a
+                >
+              </h5>
+            </div>
+            <div class="school-item">
+              <img src="/assets/school2.png" class="school-img" alt="school2" />
+              <h6 class="text-gray">Nábrežná 1325, Kysucké Nové Mesto</h6>
+              <h5>
+                <span>Stredná Priemyselná Škola Informačných Technológií</span>
+                <a href="http://www.spsknm.sk" class="text-blue"
+                  >www.spsknm.sk</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="pd">
-      <h2>Čo si myslia o OpenLabe študenti?</h2>
-      <p>
-        Openlab mi dal neuveriteľné množstvo skúsenosti do života, super ľudí, s
-        ktorými vďaka stážam pracujem v rovnakej firme a samozrejme mnoho
-        ďalších dôležitých veci pre fungovanie v dnešnej “IT” sfére. Prístup
-        akým sa tu vyučuje je presne taký, aký v dnešnej dobe potrebujeme na
-        stredných školách.
-      </p>
-      <h5>Marko</h5>
-      <p>HybridLab, IST</p>
-      <p>
+    <section id="students">
+      <div class="container">
+        <div class="students-wrapper">
+          <div>
+            <h2 class="fw-light">
+              <strong>Čo si myslia</strong>
+              o OpenLabe študenti?
+            </h2>
+            <p class="text-gray">
+              Openlab mi dal neuveriteľné množstvo skúsenosti do života, super
+              ľudí, s ktorými vďaka stážam pracujem v rovnakej firme a
+              samozrejme mnoho ďalších dôležitých veci pre fungovanie v dnešnej
+              “IT” sfére. Prístup akým sa tu vyučuje je presne taký, aký v
+              dnešnej dobe potrebujeme na stredných školách.
+            </p>
+            <h5>Marko</h5>
+            <p>HybridLab, IST</p>
+          </div>
+          <div>
+            <img
+              src="/assets/students3.png"
+              class="students-img"
+              alt="students"
+            />
+          </div>
+          <!--<p>
         Som veľmi rád, že som mal na strednej škole možnosť byť súčasťou
         OpenLabu a získavať vedomosti priamo od ľudí z praxe. Vďaka OpenLabu som
         už počas strednej skoly stážoval vo firme a naberal skúsenosti na
         projektoch, ktoré by som napríklad na vysokej škole ťažko naberal.
       </p>
       <h5>Marek</h5>
-      <p>HybridLab, IST</p>
+      <p>HybridLab, IST</p> -->
+        </div>
+      </div>
     </section>
 
     <section class="pd">
