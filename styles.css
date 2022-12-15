@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +20,6 @@
     font-size: 13px;
 }
 
-
 .btn-primary {
     padding: 15px 18px;
     font-size: 13px;
@@ -33,12 +33,15 @@
   }
 
 nav {
-    padding-left: 250px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    font-size: 13px;
-    font-weight: bolder;
+    padding:12px 250px;
+    font-size: 14px;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr 4fr 155px;
+    align-items: center;
+   
 }
+
 
 .nav ul {
     margin: 0;
@@ -127,7 +130,9 @@ h2 {
 
 
 .fw-light {
+    font-size: 40px;
     font-weight: 300;
+    line-height: 48px;
 }
 
 .fw-bold {
@@ -135,7 +140,7 @@ h2 {
 }
 
 .mb-5 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 #why {
@@ -146,7 +151,9 @@ h2 {
 .text-gray {
     color: #566b8d;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 24px;
 }
 
 h5 {
@@ -157,10 +164,16 @@ h5 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 3rem;
+    width: 90%;
+    margin: auto;
 }
 
 .why-item{
     text-align: left;
+}
+
+.why-item h5 {
+    margin: 0.5rem 0;
 }
 
 .vision-wrapper {
@@ -170,7 +183,8 @@ h5 {
 
 .vision-text {
     text-align: left;
-
+    padding-right: 100px;
+    padding-top: 80px;
 }
 
 .vision-items-wrapper{
@@ -214,10 +228,13 @@ h5 {
 
 .count {
     font-size: 90px;
+    margin-top: 3rem;
+    margin-right: 1.5rem;
 }
 
 .type {
     font-size: 18px;
+    margin-right: 1.5rem;
 }
 
 .labs-wrapper {
