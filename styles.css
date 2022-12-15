@@ -130,9 +130,7 @@ h2 {
 
 
 .fw-light {
-    font-size: 40px;
     font-weight: 300;
-    line-height: 48px;
 }
 
 .fw-bold {
@@ -237,9 +235,30 @@ h5 {
     margin-right: 1.5rem;
 }
 
+.labs-text{
+    padding-top: 50px;
+}
+
+.labs-item {
+    padding: 1px 22px;
+}
+
+.labs-item:hover {
+    box-shadow: 1px 1px 10px 1px #e7dcdc;
+  }
+
+.labs-item p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 21px;
+    padding-top: 10px;
+}
+
 .labs-wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 40% 60%;
+    
 }
 
 .labs-items-wrapper {
