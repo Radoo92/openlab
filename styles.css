@@ -20,6 +20,10 @@ body {
   cursor: pointer;
 }
 
+.discord-logo {
+    vertical-align: middle;
+}
+
 .header-text {
     padding: 10px 10px;
     font-size: 13px;
@@ -122,6 +126,7 @@ nav {
 
 .text-blue {
     color: #3597ff;
+    text-decoration: none;
 }
 
 .pd {
