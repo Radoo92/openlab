@@ -20,7 +20,7 @@ body {
   cursor: pointer;
 }
 
-.discord-logo {
+.center-logo {
     vertical-align: middle;
 }
 
@@ -40,7 +40,7 @@ body {
     cursor: pointer;
     letter-spacing: 1px;
   }
-
+  
 nav {
     padding:12px 250px;
     font-size: 14px;
@@ -127,7 +127,39 @@ nav {
 .text-blue {
     color: #3597ff;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5.1rem;
 }
+
+.gray-thin {
+    color: #566b8d;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 19.2px;
+    margin: 1.5rem 0;
+}
+
+.warning {
+    display: flex;
+}
+
+.important {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: red;
+}
+
+.warning-icon {
+    width: 16px;
+}
+
+.ml {
+    margin-left: 8.9rem;
+}
+
 
 .pd {
     padding-top: 48px;
@@ -293,6 +325,11 @@ h5 {
 .schools-items-wrapper{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+
+.school-item {
+    display: grid;
+    grid-template-columns:max-content;
 }
 
 .schools-text {
