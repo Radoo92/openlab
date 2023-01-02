@@ -11,6 +11,9 @@ body {
 }
 
 .discord-btn {
+    display: flex;
+    align-items: center;
+    gap: 2px;
   padding: 6px 10px;
   border-radius: 50rem;
   border: 1px solid transparent;
@@ -111,7 +114,7 @@ nav {
     padding-bottom: 24px;
     padding-left: 12px;
     padding-right: 12px;
-    max-width: 1200px; margin: 0 auto;
+    max-width: 1320px; margin: 0 auto;
 }
 
 .main-img {
@@ -129,7 +132,7 @@ nav {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 5.1rem;
+   
 }
 
 .gray-thin {
@@ -290,12 +293,21 @@ h5 {
 }
 
 .labs-item {
-    padding: 15px 22px;
+    padding: 1.5rem 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .labs-item:hover {
-    box-shadow: 1px 1px 10px 1px #e7dcdc;
+    box-shadow: 0px 0.95237px 23.8092px rgb(99 118 149 / 15%);
   }
+
+.labs-item:hover .arrow {
+    fill: #3597FF;
+    opacity: 1;
+  }
+
 
 .labs-item p {
     font-size: 14px;
@@ -303,6 +315,8 @@ h5 {
     letter-spacing: 1px;
     line-height: 21px;
     padding-top: 10px;
+    flex: 1 1 auto;
+    margin-bottom: 10px;
 }
 
 .labs-wrapper {
@@ -314,6 +328,10 @@ h5 {
 .labs-items-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.justify-content-school{
+    justify-self: stretch;
 }
 
 .schools-wrapper {
@@ -330,6 +348,7 @@ h5 {
 .school-item {
     display: grid;
     grid-template-columns:max-content;
+    max-width: 500px;
 }
 
 .schools-text {
@@ -340,6 +359,11 @@ h5 {
     width: 500px;
 }
 
+.school-info{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: end;
+}
 .students-wrapper {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -358,5 +382,10 @@ h5 {
     max-width: 482px;
     top: 2100px;
     left: 1680px;
+}
+
+.arrow {
+    fill: #71829F;
+    opacity: 0.5;
 }
 
