@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'SF Pro Display', sans-serif;
+    letter-spacing: 1px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.center-logo {
+    vertical-align: middle;
+}
+
+.container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+    max-width: 1320px; margin: 0 auto;
+}
+
+.text-blue {
+    color: #3597ff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+
+.gray-thin {
+    color: #566b8d;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 19.2px;
+    margin: 1.5rem 0;
+}
+
+.ml {
+    margin-left: 8.9rem;
+}
+
+
+.pd {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 24px;
+    max-width: 451px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+
+.fw-light {
+    font-weight: 300;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.mb-5 {
+    margin-bottom: 2rem;
+}
+
+.fw-bold {
+    line-height: 1;
+    font-weight: 700;
+}
