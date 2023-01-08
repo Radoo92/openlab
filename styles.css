@@ -17,8 +17,8 @@
 }
 
 .btn-primary {
-    padding: 15px 18px;
-    font-size: 13px;
+    padding: 17px;
+    font-size: 14px;
     background-color: #3597ff;
     border-color: #3597ff;
     border-radius: 6px;
@@ -26,7 +26,10 @@
     border: 0 solid transparent;
     cursor: pointer;
     letter-spacing: 1px;
+    display: inline-block;
+    white-space: nowrap;
   }
+
   
 nav {
     padding:12px 250px;
