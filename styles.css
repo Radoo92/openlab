@@ -350,6 +350,10 @@ h5 {
     gap: 8px;
   }
 
+  .join-item p {
+    flex: 1 1 auto;
+  }
+
   .special-items  {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -365,4 +369,49 @@ h5 {
 .team-picture {
     border-radius: 0.25rem;
     width: 306px;
+}
+
+.kubova {
+    height: 500px;
+    width: 1224px;
+    border-radius: 19px;
+    object-fit: cover;
+}
+
+.labmasters-item {
+    padding: 40px 32px;
+    background: #A54FA2;;
+    width: 520px;
+    position: absolute;
+    top: 30px;
+    left: -120px;
+    border-radius: 6px;
+}
+
+.labmasters-wrapper {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 48;
+}
+
+.white-bold {
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.white-small {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.projects-header {
+    text-align: center;
 }
