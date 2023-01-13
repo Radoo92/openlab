@@ -415,3 +415,20 @@ h5 {
 .projects-header {
     text-align: center;
 }
+
+.support-img {
+    width: 660px;
+}
+
+.support {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.support-button {
+    display: flex;
+    color: #3597ff;
+    text-decoration: none;
+    gap: 8px;
+}

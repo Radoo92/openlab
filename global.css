@@ -98,3 +98,9 @@ h2 {
 .mb-xl-5 {
     margin-bottom: 48px;
 }
+
+.fw-bold-small {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.4px;
+}
