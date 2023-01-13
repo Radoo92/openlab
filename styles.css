@@ -432,3 +432,17 @@ h5 {
     text-decoration: none;
     gap: 8px;
 }
+
+.behind-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.behind-img {
+    margin-right: 50px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
