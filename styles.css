@@ -416,6 +416,17 @@ h5 {
     text-align: center;
 }
 
+.project-img {
+    width: 636px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.projects-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .support-img {
     width: 660px;
 }
@@ -446,3 +457,50 @@ h5 {
     display: flex;
     align-items: center;
 }
+
+.content-items {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+
+ }
+
+ .content-img {
+    width: 320px;
+    height: 320px;
+}
+
+.modern-img {
+    width: 636px;
+    height: 357px;
+}
+
+.modern-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.super-img {
+    width: 262px;
+    height: 75px;
+}
+
+.points-img {
+    width: 105px;
+    height: 105px;
+}
+
+.binary-img {
+    width: 203px;
+    height: 86px;
+}
+
+.kont-img {
+    width: 272px;
+    height: 54px;
+}
+
+.pelikan-img {
+    width: 66px;
+    height: 64px;
+}
+  
