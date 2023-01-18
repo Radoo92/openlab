@@ -479,6 +479,20 @@ h5 {
     grid-template-columns: 1fr 1fr;
 }
 
+.modern-item {
+    margin-right: 80px;
+    align-items: center;
+}
+
+.thanks-items {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.thanks-item {
+    display: flex;
+}
+
 .super-img {
     width: 262px;
     height: 75px;
