@@ -95,6 +95,15 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+.my-3 {
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
 .mb-xl-5 {
     margin-bottom: 48px;
 }
@@ -107,4 +116,46 @@ h2 {
 
 .pd-t {
     padding-top: 24px;
+}
+
+.pd-l {
+ padding-left: 60px;
+}
+
+.fw-light-small {
+    font-size: 28px;
+    line-height: 33.6px;
+    font-weight: 500;
+    }
+
+.text-gray-small {
+    color: #566b8d;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 16.8px;
+}
+
+.text-black {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.black-thin {
+    color:black;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.text-gray-footer {
+    color: #566b8d;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 19.5px;
 }

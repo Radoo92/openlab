@@ -76,8 +76,7 @@ nav {
     position: absolute;
     max-width: 482px;
     top: 300px;
-    left: 1680px;
-    
+    left: 1680px;  
  }
 
 .container-main{
@@ -425,7 +424,9 @@ h5 {
 .projects-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 250px;
 }
+
 
 .support-img {
     width: 660px;
@@ -449,8 +450,25 @@ h5 {
     grid-template-columns: 1fr 1fr;
 }
 
-.behind-img {
-    margin-right: 50px;
+.behind-item-right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.behind-item-wrapper-bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px 10px;
+}
+
+.behind-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px 10px;
 }
 
 .center {
@@ -477,10 +495,11 @@ h5 {
 .modern-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 150px;
+
 }
 
 .modern-item {
-    margin-right: 80px;
     align-items: center;
 }
 
@@ -491,6 +510,16 @@ h5 {
 
 .thanks-item {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.thanks-item-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
 }
 
 .super-img {
@@ -517,4 +546,61 @@ h5 {
     width: 66px;
     height: 64px;
 }
-  
+
+.btn-modern {
+    padding: 22px 50px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #3597ff;
+    border-color: #3597ff;
+    border-radius: 6px;
+    color: white;
+    border: 0 solid transparent;
+    cursor: pointer;
+    letter-spacing: 1px;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+
+  input {
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    width: 90%
+}
+
+.news-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    background-color: #d7eaff;
+    padding: 48px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.footer-items {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 1fr;
+    align-items: flex-end;
+}
+
+.footer-item {
+    text-align: end;
+    text-decoration: none;
+}
+
+.a-letter {
+    position: absolute;
+    max-width: 470px;
+    top: 4950px;
+    left: -250px;  
+}
+
+.o-letter {
+    position: absolute;
+    max-width: 482px;
+    top: 4000px;
+    left: 1680px;    
+}
